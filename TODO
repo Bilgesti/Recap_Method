@@ -7,7 +7,7 @@
 
 
            Argument/Params
-           Split up methods
+        --------- ----- --------> Split up methods
            keywords + methods ( static,this)
            Methods that repeat until "YES" / "NO"
            Restart program if done() (question YES NO also)

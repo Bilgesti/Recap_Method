@@ -17,7 +17,7 @@ public class Student {
     // Methods
     // TODO - Create methods
     public String showIfSleepy () {
-        if(isTired== true) {
+        if(isTired) {
            return name + " is very tired";
         }else {
             return name + " is NOT tired";
