@@ -3,25 +3,19 @@ package com.bilgee.Recap_method;
 public class Main {
     public static void main(String[] args) {
 
-        int [] scores = {0,150,500,1000};
+        System.out.println("Hey"); // Det är method som heter printline.
+        test("Hello world");
 
-        printScores(scores);
-        checkScoreIfZero(scores);
-
-
-    }
-    public static void printScores(int[] scores) {
-
-        for (int i = 0; i < scores.length; i++) {
-            System.out.println(scores[i]);
+        for ( int i = 0; i < 100; i++) {
+            test("Index: " + i);
         }
-    }
-    public static void checkScoreIfZero (int[] scores) {
-        if (scores[0] == 0) {
-            System.out.println("The score was indeed 0");
-        }else {
-            System.out.println("The score was not 0");
-        }
-    }
+        System.out.println(addition(2,8));
 
+    }
+    public static void test(String message) {
+        System.out.println(message);
+    }
+    public static int addition (int x, int y){
+        return x+y;
+    }
 }
